@@ -1,0 +1,109 @@
+@charset "UTF8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(120deg,  #53e2f5be 20%, #F553A6);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    padding: 10px;
+    position: absolute;
+    top: 15%;
+    color: black;
+    justify-content: normal;
+    align-items: normal;
+    text-align: center;
+}
+
+section{
+    position: relative;
+    display: flex;
+    width: 400px;
+    min-width: 300px;
+    height: 350px;
+    background-color: #f3fbfcbe;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.5em;
+   align-items: center;
+   justify-content: center;
+}
+
+main{
+    display: block;
+    background-color: #f3fbfcbe;
+    width: 400px;
+    min-width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.header{
+    width: 100px;
+    position: absolute;
+    background-color: rgb(209, 208, 208);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight:200;
+    color: #f3fbfc;
+    display: block;
+    left: -30px;
+}
+
+form{
+    padding: 20px;
+}
+
+form > div.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.form-content label{
+    padding-bottom: 5px;
+}
+
+.form-content input{
+    display: block;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.but{
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient(120deg,  #53e2f5be 50%, #F553A6);
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+    transition: 0.2s ease-in;
+}
+
+.but:hover{
+    font-weight: bolder;
+    background-image: linear-gradient(120deg,  #F553A6 50%, #53e2f5be);
+}
